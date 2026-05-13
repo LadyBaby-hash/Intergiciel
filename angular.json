@@ -1,0 +1,12 @@
+          throw err;
+            ^
+
+Error: error TS5012: Cannot read file '/workspaces/Intergiciel/tsconfig.json': ENOENT: no such file or directory, open '/workspaces/Intergiciel/tsconfig.json'.
+
+    at readTsconfig (/workspaces/Intergiciel/node_modules/@angular-devkit/build-angular/src/utils/read-tsconfig.js:57:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async configureI18nBuild (/workspaces/Intergiciel/node_modules/@angular-devkit/build-angular/src/utils/i18n-webpack.js:31:22)
+    at async generateI18nBrowserWebpackConfigFromContext (/workspaces/Intergiciel/node_modules/@angular-devkit/build-angular/src/utils/webpack-browser-config.js:79:36)
+    at async setup (/workspaces/Intergiciel/node_modules/@angular-devkit/build-angular/src/builders/dev-server/webpack-server.js:106:34)
+
+Node.js v24.14.0
